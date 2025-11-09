@@ -126,7 +126,7 @@
           <mxGeometry x="140" y="274" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gm1SaMZMDXmlQUtWmcQF-88" value="Sensor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="309" width="180" height="130" as="geometry" />
+          <mxGeometry x="-160" y="296" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Gm1SaMZMDXmlQUtWmcQF-89" value="name : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gm1SaMZMDXmlQUtWmcQF-88" vertex="1">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -759,7 +759,7 @@
         <mxCell id="JSyfMTXZ70QJV62haNIp-15" value="added list of events for better readability" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-300" y="413" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JSyfMTXZ70QJV62haNIp-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="JSyfMTXZ70QJV62haNIp-12">
+        <mxCell id="JSyfMTXZ70QJV62haNIp-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JSyfMTXZ70QJV62haNIp-15" target="JSyfMTXZ70QJV62haNIp-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-210" y="460" as="sourcePoint" />
             <mxPoint x="-110" y="380" as="targetPoint" />
