@@ -28,8 +28,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-8" value="The system notifies all household members of a critical pipe leak so they can perform emergency actions." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
-          <mxGeometry x="940" y="160" width="260" height="80" as="geometry" />
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-8" value="The system notifies all household members of a critical pipe leak so they can perform emergency actions. Source: Sensor in wall detects abnormal moisture" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="940" y="160" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_Ro31Wvp5j4tq2mAu0zB-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="or_6IbQhwUCD2Tt6in2j-2" target="_Ro31Wvp5j4tq2mAu0zB-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -187,7 +187,7 @@
             <mxPoint x="600" y="1575" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="or_6IbQhwUCD2Tt6in2j-47" value="The system activates the HeatingSystem and notifies Grandma." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-47" value="The system activates the HeatingSystem and notifies Grandma who puts on a sweater." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="940" y="1645" width="260" height="99.75" as="geometry" />
         </mxCell>
         <mxCell id="or_6IbQhwUCD2Tt6in2j-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="or_6IbQhwUCD2Tt6in2j-47" source="or_6IbQhwUCD2Tt6in2j-71">
