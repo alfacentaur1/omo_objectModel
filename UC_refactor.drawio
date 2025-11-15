@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.0.2">
   <diagram name="Page-1" id="uLy4zEtU-va6Rsm4GexR">
-    <mxGraphModel dx="2977" dy="1537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -325,7 +325,7 @@
             <mxPoint x="920" y="3140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="or_6IbQhwUCD2Tt6in2j-113" value="SmartBlindsSystem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-113" value="SmartOccupancySystem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="3650" width="450" height="530" as="geometry" />
         </mxCell>
         <mxCell id="or_6IbQhwUCD2Tt6in2j-114" value="Generate Movement Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-113">
@@ -373,7 +373,7 @@
             <mxPoint x="980" y="3985" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HaXPqBGxyXto5Sf9Ec5Y-1" value="SmartBlindsSystem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HaXPqBGxyXto5Sf9Ec5Y-1" value="SmartFridgeSystem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1550" y="130" width="450" height="530" as="geometry" />
         </mxCell>
         <mxCell id="HaXPqBGxyXto5Sf9Ec5Y-2" value="Generate FridgeEmpty Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="HaXPqBGxyXto5Sf9Ec5Y-1">
