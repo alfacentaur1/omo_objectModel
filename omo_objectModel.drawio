@@ -527,12 +527,9 @@
             <mxPoint x="1370" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gm1SaMZMDXmlQUtWmcQF-265" value="KitchenHood" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="1030" width="140" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="Gm1SaMZMDXmlQUtWmcQF-266" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="Gm1SaMZMDXmlQUtWmcQF-265" target="Gm1SaMZMDXmlQUtWmcQF-262" edge="1">
+        <mxCell id="Gm1SaMZMDXmlQUtWmcQF-266" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" target="Gm1SaMZMDXmlQUtWmcQF-262" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1490" y="1035" as="sourcePoint" />
+            <mxPoint x="1350" y="1057.1428571428569" as="sourcePoint" />
             <mxPoint x="1150" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -570,12 +567,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="950" y="570" as="sourcePoint" />
             <mxPoint x="850" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gm1SaMZMDXmlQUtWmcQF-274" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="Gm1SaMZMDXmlQUtWmcQF-265" target="Gm1SaMZMDXmlQUtWmcQF-1" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="990" y="600" as="sourcePoint" />
-            <mxPoint x="890" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Gm1SaMZMDXmlQUtWmcQF-275" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="Gm1SaMZMDXmlQUtWmcQF-261" target="Gm1SaMZMDXmlQUtWmcQF-1" edge="1">
