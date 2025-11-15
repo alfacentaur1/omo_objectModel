@@ -1,110 +1,308 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.0.2">
   <diagram name="Page-1" id="uLy4zEtU-va6Rsm4GexR">
-    <mxGraphModel dx="1042" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-1" value="SmartHumiditySystem (Humidity Sensor)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="90" width="440" height="530" as="geometry" />
+        <mxCell id="qv9_HpFiR3eTIVylgDVZ-27" value="SmartLighting" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="730" width="440" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-2" value="Manage Room Humidity" style="ellipse;whiteSpace=wrap;html=1;" parent="qv9_HpFiR3eTIVylgDVZ-1" vertex="1">
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-65" value="Generate LowLight Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="qv9_HpFiR3eTIVylgDVZ-27">
           <mxGeometry x="150" y="70" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-5" value="Alert to Pipe Leak" style="ellipse;whiteSpace=wrap;html=1;" parent="qv9_HpFiR3eTIVylgDVZ-1" vertex="1">
-          <mxGeometry x="150" y="235" width="140" height="70" as="geometry" />
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-66" value="Generate Daylight Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="qv9_HpFiR3eTIVylgDVZ-27">
+          <mxGeometry x="150" y="200" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-19" value="Manage Soil Moisture" style="ellipse;whiteSpace=wrap;html=1;" parent="qv9_HpFiR3eTIVylgDVZ-1" vertex="1">
-          <mxGeometry x="150" y="380" width="140" height="70" as="geometry" />
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-67" value="Manage Ambient Light (on/off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="qv9_HpFiR3eTIVylgDVZ-27">
+          <mxGeometry x="150" y="330" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qv9_HpFiR3eTIVylgDVZ-3" target="qv9_HpFiR3eTIVylgDVZ-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-4" value="The system automatically activates the Ventilation system when high indoor humidity (from showering or cooking) is detected." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="940" y="640" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-3" value="Ventilation" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="860" y="165" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-6" value="Mom" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="210" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qv9_HpFiR3eTIVylgDVZ-7" target="qv9_HpFiR3eTIVylgDVZ-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-7" value="Dad" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="330" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-8" value="Child1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="430" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qv9_HpFiR3eTIVylgDVZ-6" target="qv9_HpFiR3eTIVylgDVZ-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qv9_HpFiR3eTIVylgDVZ-8" target="qv9_HpFiR3eTIVylgDVZ-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qv9_HpFiR3eTIVylgDVZ-20" target="qv9_HpFiR3eTIVylgDVZ-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-20" value="WateringSystem" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="860" y="475" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-27" value="SmartLighting (LightSensor)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="730" width="440" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="qv9_HpFiR3eTIVylgDVZ-28" value="&lt;code&gt;Manage Ambient Light&lt;/code&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="qv9_HpFiR3eTIVylgDVZ-27" vertex="1">
-          <mxGeometry x="150" y="115" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Ro31Wvp5j4tq2mAu0zB-1" target="qv9_HpFiR3eTIVylgDVZ-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-1" value="LightingSystem" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="850" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-4" value="The system automatically activates the Ventilation system when high indoor humidity (from showering or cooking) is detected." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="820" y="30" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="_Ro31Wvp5j4tq2mAu0zB-4" source="qv9_HpFiR3eTIVylgDVZ-2">
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="or_6IbQhwUCD2Tt6in2j-5" target="_Ro31Wvp5j4tq2mAu0zB-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="850" y="384" as="sourcePoint" />
-            <mxPoint x="880" y="470" as="targetPoint" />
+            <mxPoint x="629.9951006962658" y="630.0022942185792" as="sourcePoint" />
+            <mxPoint x="942.19" y="890.51" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="972.19" y="680.51" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-8" value="The system notifies all household members of a critical pipe leak so they can perform emergency actions." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="820" y="320" width="260" height="80" as="geometry" />
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-8" value="The system notifies all household members of a critical pipe leak so they can perform emergency actions." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="940" y="160" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="_Ro31Wvp5j4tq2mAu0zB-8" source="qv9_HpFiR3eTIVylgDVZ-5">
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="or_6IbQhwUCD2Tt6in2j-2" target="_Ro31Wvp5j4tq2mAu0zB-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="930" y="470" as="sourcePoint" />
+            <mxPoint x="600" y="360" as="sourcePoint" />
             <mxPoint x="1280" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-11" value="The system automatically activates the WateringSystem when the garden sensor detects dry soil." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="820" y="620.25" width="260" height="80" as="geometry" />
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-11" value="The system automatically activates the WateringSystem when the garden sensor detects dry soil." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="940" y="355" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="_Ro31Wvp5j4tq2mAu0zB-11" source="qv9_HpFiR3eTIVylgDVZ-19">
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="or_6IbQhwUCD2Tt6in2j-3" target="_Ro31Wvp5j4tq2mAu0zB-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="269.4974746830583" y="499.99873734152925" as="sourcePoint" />
-            <mxPoint x="1280" y="1080.25" as="targetPoint" />
+            <mxPoint x="720" y="267" as="sourcePoint" />
+            <mxPoint x="1470" y="807.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-13" value="The system automatically controls the LightingSystem based on natural light levels. It activates ambient light (30%) when it&#39;s dark and deactivates the lights when daylight is detected." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="820" y="740" width="260" height="99.75" as="geometry" />
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-13" value="The system automatically controls the LightingSystem based on natural light levels. It activates ambient light (30%) when it&#39;s dark and deactivates the lights when daylight is detected." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="950" y="800" width="260" height="99.75" as="geometry" />
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="_Ro31Wvp5j4tq2mAu0zB-13" source="qv9_HpFiR3eTIVylgDVZ-28">
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-15" value="SmartHeating" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="1250" width="440" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-68" value="Generate TemperatureLow Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_Ro31Wvp5j4tq2mAu0zB-15">
+          <mxGeometry x="150" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-69" value="Generate TemperatureTargetReached Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_Ro31Wvp5j4tq2mAu0zB-15">
+          <mxGeometry x="150" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-70" value="Regulate Heating (start/stop)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_Ro31Wvp5j4tq2mAu0zB-15">
+          <mxGeometry x="150" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-71" value="Receive Low Temperature Alert" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_Ro31Wvp5j4tq2mAu0zB-15">
+          <mxGeometry x="150" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-17" value="HeatingSystem" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="1545" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-1" value="SmartHumiditySystem&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="440" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-2" value="Generate Pipeleak event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-1">
+          <mxGeometry x="260" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-3" value="Generate dry soil event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-1">
+          <mxGeometry x="260" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-4" value="Water the soil" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-1">
+          <mxGeometry x="260" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-5" value="Manage the high humidity&lt;br&gt;(turn off/turn on)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-1">
+          <mxGeometry x="260" y="413" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-6" value="Repair all smart humidity system appliances" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-1">
+          <mxGeometry x="50" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-7" value="HumiditySensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="267" width="30" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-3" target="or_6IbQhwUCD2Tt6in2j-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="630" as="sourcePoint" />
-            <mxPoint x="1320.5025253169417" y="1210.2512626584708" as="targetPoint" />
+            <mxPoint x="650" y="400" as="sourcePoint" />
+            <mxPoint x="860" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-15" value="SmartHeating (Temperature Sensor)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1120" width="440" height="300" as="geometry" />
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-2" target="or_6IbQhwUCD2Tt6in2j-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="270" as="sourcePoint" />
+            <mxPoint x="1065" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-16" value="&lt;code&gt;Regulate Indoor Temperature&lt;/code&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_Ro31Wvp5j4tq2mAu0zB-15">
-          <mxGeometry x="150" y="115" width="140" height="70" as="geometry" />
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-10" value="Smart watering" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="420" width="30" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Ro31Wvp5j4tq2mAu0zB-17" target="_Ro31Wvp5j4tq2mAu0zB-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-4" target="or_6IbQhwUCD2Tt6in2j-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="600" as="sourcePoint" />
+            <mxPoint x="975" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="_Ro31Wvp5j4tq2mAu0zB-17" value="HeatingSystem" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1170" width="30" height="60" as="geometry" />
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-12" value="Ventilator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="560" width="30" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-5" target="or_6IbQhwUCD2Tt6in2j-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="567" as="sourcePoint" />
+            <mxPoint x="1071" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-14" value="Dad" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="215" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-14" target="or_6IbQhwUCD2Tt6in2j-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="180" as="sourcePoint" />
+            <mxPoint x="347" y="214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-18" value="LightSensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-65" target="or_6IbQhwUCD2Tt6in2j-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="835" as="sourcePoint" />
+            <mxPoint x="1000" y="769" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-23" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-66" target="or_6IbQhwUCD2Tt6in2j-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="965" as="sourcePoint" />
+            <mxPoint x="1105" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qv9_HpFiR3eTIVylgDVZ-27" target="_Ro31Wvp5j4tq2mAu0zB-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="740" as="sourcePoint" />
+            <mxPoint x="1040" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-29" value="LightingSystem" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1080" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-29" target="or_6IbQhwUCD2Tt6in2j-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1085" as="sourcePoint" />
+            <mxPoint x="600" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-33" value="TemperatureInsideSensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-36" value="Grandma" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1650" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-42" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-71" target="or_6IbQhwUCD2Tt6in2j-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="1680" as="sourcePoint" />
+            <mxPoint x="280" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-33" target="or_6IbQhwUCD2Tt6in2j-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1115" y="1415" as="sourcePoint" />
+            <mxPoint x="600" y="1355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-44" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-33" target="or_6IbQhwUCD2Tt6in2j-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1125" y="1455" as="sourcePoint" />
+            <mxPoint x="600" y="1465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="_Ro31Wvp5j4tq2mAu0zB-17" target="or_6IbQhwUCD2Tt6in2j-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1185" y="1505" as="sourcePoint" />
+            <mxPoint x="600" y="1575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-47" value="The system activates the HeatingSystem and notifies Grandma." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1645" width="260" height="99.75" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="or_6IbQhwUCD2Tt6in2j-47" source="or_6IbQhwUCD2Tt6in2j-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="1680" as="sourcePoint" />
+            <mxPoint x="1040" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-49" value="SmartHomeAutomationSystem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1870" width="450" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-79" value="Generate ScheduledTime Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-49">
+          <mxGeometry x="155" y="70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-75" value="Generate MorningAlarm Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-49">
+          <mxGeometry x="155" y="185" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-80" value="Manage Alarm" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-49">
+          <mxGeometry x="155" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-73" value="Generate NoMovement Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-49">
+          <mxGeometry x="155" y="800" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-74" value="Generate BedTime Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-49">
+          <mxGeometry x="155" y="550" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-78" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-49">
+          <mxGeometry x="155" y="670" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-72" value="Dispense Food" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-49">
+          <mxGeometry x="155" y="430" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-100" value="Auto-Lock Door" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="or_6IbQhwUCD2Tt6in2j-49">
+          <mxGeometry x="155" y="920" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-58" value="PetFeeder" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="2210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-59" value="MoveSensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="2650" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-62" value="Child1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-64" value="Door/SmartLock" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="2790" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-89" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-59" target="or_6IbQhwUCD2Tt6in2j-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1135" y="2230" as="sourcePoint" />
+            <mxPoint x="800" y="2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-91" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-80" target="or_6IbQhwUCD2Tt6in2j-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="2215" as="sourcePoint" />
+            <mxPoint x="230" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-92" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-93" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="2050" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-94" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2050" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-95" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1960" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-96" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1980" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-81" value="TimeSensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="2065" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-87" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-81" target="or_6IbQhwUCD2Tt6in2j-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1175" y="2220" as="sourcePoint" />
+            <mxPoint x="840" y="2330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-84" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-81" target="or_6IbQhwUCD2Tt6in2j-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1075" y="1990" as="sourcePoint" />
+            <mxPoint x="790" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-85" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-81" target="or_6IbQhwUCD2Tt6in2j-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1155" y="2050" as="sourcePoint" />
+            <mxPoint x="820" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-90" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-58" target="or_6IbQhwUCD2Tt6in2j-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="915" y="2099.9999999999995" as="sourcePoint" />
+            <mxPoint x="780" y="2085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-63" value="Child2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2525" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-97" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-78" target="or_6IbQhwUCD2Tt6in2j-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="2505" as="sourcePoint" />
+            <mxPoint x="370" y="2500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="or_6IbQhwUCD2Tt6in2j-101" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="or_6IbQhwUCD2Tt6in2j-64" target="or_6IbQhwUCD2Tt6in2j-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1085" y="2830" as="sourcePoint" />
+            <mxPoint x="790" y="2855" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
