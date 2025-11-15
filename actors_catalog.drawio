@@ -202,6 +202,15 @@
         <mxCell id="9xaG7HOyfQBl3aDca4b2-39" value="PetFeeder" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="450" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9xaG7HOyfQBl3aDca4b2-40" value="Pet" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9xaG7HOyfQBl3aDca4b2-42" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mxwtf8koKq63hH6x07YJ-7" target="9xaG7HOyfQBl3aDca4b2-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="130" as="sourcePoint" />
+            <mxPoint x="937" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
