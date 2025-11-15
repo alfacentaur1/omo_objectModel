@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.0.2">
   <diagram name="Page-1" id="uLy4zEtU-va6Rsm4GexR">
-    <mxGraphModel dx="3450" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2084" dy="1076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,19 +248,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="or_6IbQhwUCD2Tt6in2j-92" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="2120" width="140" height="70" as="geometry" />
+          <mxGeometry x="1390" y="3440" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="or_6IbQhwUCD2Tt6in2j-93" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1590" y="2050" width="140" height="70" as="geometry" />
+          <mxGeometry x="1520" y="3370" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="or_6IbQhwUCD2Tt6in2j-94" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="2050" width="140" height="70" as="geometry" />
+          <mxGeometry x="1150" y="3370" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="or_6IbQhwUCD2Tt6in2j-95" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="1960" width="140" height="70" as="geometry" />
+          <mxGeometry x="1160" y="3280" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="or_6IbQhwUCD2Tt6in2j-96" value="Manage Computer (turn off)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1980" width="140" height="70" as="geometry" />
+          <mxGeometry x="1100" y="3300" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="or_6IbQhwUCD2Tt6in2j-81" value="TimeSensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="870" y="2065" width="30" height="60" as="geometry" />
