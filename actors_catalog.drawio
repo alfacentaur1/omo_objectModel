@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.0.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.2">
   <diagram name="Page-1" id="7e7VtwZHkxIFDG17Mg5N">
-    <mxGraphModel dx="1042" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1206" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,13 +73,76 @@
             <mxPoint x="500" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leSqFiszJrbvQFatQzEW-1" value="HeatingSystem" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="leSqFiszJrbvQFatQzEW-1" value="HeatingSystem" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="100" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="leSqFiszJrbvQFatQzEW-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="leSqFiszJrbvQFatQzEW-1" target="mxwtf8koKq63hH6x07YJ-1">
+        <mxCell id="leSqFiszJrbvQFatQzEW-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="leSqFiszJrbvQFatQzEW-1" target="mxwtf8koKq63hH6x07YJ-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="330" y="160" as="sourcePoint" />
             <mxPoint x="470" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-1" value="SmartHumiditySystem&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="710" width="440" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-3" value="Generate Pipeleak event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="reCWrMgD2WCFq87kT9rD-1">
+          <mxGeometry x="280" y="70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-4" value="Generate dry soil event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="reCWrMgD2WCFq87kT9rD-1">
+          <mxGeometry x="270" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-10" value="Water the soil" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="reCWrMgD2WCFq87kT9rD-1">
+          <mxGeometry x="260" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-13" value="Manage the high humidity&lt;br&gt;(turn off/turn on)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="reCWrMgD2WCFq87kT9rD-1">
+          <mxGeometry x="260" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-16" value="Repair all smart humidity system appliances" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="reCWrMgD2WCFq87kT9rD-1">
+          <mxGeometry x="50" y="82" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-2" value="Manage Room Humidity" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="600" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-5" value="HumiditySensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="837" width="30" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="reCWrMgD2WCFq87kT9rD-4" target="reCWrMgD2WCFq87kT9rD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="970" as="sourcePoint" />
+            <mxPoint x="890" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="reCWrMgD2WCFq87kT9rD-3" target="reCWrMgD2WCFq87kT9rD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="840" as="sourcePoint" />
+            <mxPoint x="1095" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-9" value="Smart watering" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="980" width="30" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="reCWrMgD2WCFq87kT9rD-10" target="reCWrMgD2WCFq87kT9rD-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1170" as="sourcePoint" />
+            <mxPoint x="1005" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-12" value="Ventilator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1130" width="30" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="reCWrMgD2WCFq87kT9rD-13" target="reCWrMgD2WCFq87kT9rD-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="1137" as="sourcePoint" />
+            <mxPoint x="1101" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-15" value="Dad" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="767" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reCWrMgD2WCFq87kT9rD-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="reCWrMgD2WCFq87kT9rD-15" target="reCWrMgD2WCFq87kT9rD-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="750" as="sourcePoint" />
+            <mxPoint x="377" y="784" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
