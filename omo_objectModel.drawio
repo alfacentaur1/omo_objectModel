@@ -576,15 +576,6 @@
             <mxPoint x="880" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G_1xZwSbEhtoY-5Qs-ib-3" value="MoveSensor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-370" y="-91" width="140" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="G_1xZwSbEhtoY-5Qs-ib-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="G_1xZwSbEhtoY-5Qs-ib-3" target="Gm1SaMZMDXmlQUtWmcQF-88" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="160" as="sourcePoint" />
-            <mxPoint x="169" y="436" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rd1jdWR6TZ6oWzEMJ1j2-3" value="rights to repair or use something will be defined in observer" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="-700" y="760" width="165" height="100" as="geometry" />
         </mxCell>
